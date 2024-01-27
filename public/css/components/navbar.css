@@ -1,56 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
 .navbar{
-    background-color: rgba(123, 177, 177, 0.279);
-    top: 10px;
-}
-.content {
     position: relative;
-  }
-  
-  .content .text {
-    color: #000000;
-    font-size: 3rem;
-    position: absolute;
     top: 0;
-    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0;
+    
   }
+.text{
+  display: flex;
+  align-items: center;
+}
+.text h3{
+  font-family: 'Rubik Glitch Pop', system-ui;
+  font-size: 30px;
+  color: rgb(31, 31, 34);
+}
+.text i{
+  margin: 10px 10px 0 0;
+  font-size: 30px;
+  color: rgb(62, 62, 62);
+
+}
+.icon{
+  color: rgb(62, 62, 62);
+  width: 20px;
+  font-size: 20px;
+  animation: animation 15s linear infinite;
+  cursor: pointer;
   
-  .content .text:nth-child(1) {
-    color: transparent;
-    -webkit-text-stroke: 2px #334389;
+}
+.icon:hover {
+  transition: 0.3s;
+  color: rgb(56, 65, 93);
+}
+@keyframes animation {
+  0% {
+    transform: rotate(0deg);
+
   }
-  
-  .content .text:nth-child(2) {
-    color: #4696cf;
-    animation: animate 3s ease-in-out infinite;
+  50%{
+    transform: rotate(-180deg);
+
   }
-  
-  @keyframes animate {
-    0%,
-      100% {
-      clip-path: polygon(
-              0% 45%,
-              16% 44%,
-              33% 50%,
-              54% 60%,
-              70% 61%,
-              84% 59%,
-              100% 52%,
-              100% 100%,
-              0% 100%
-          );
-    }
-  
-    50% {
-      clip-path: polygon(
-              0% 60%,
-              15% 65%,
-              34% 66%,
-              51% 62%,
-              67% 50%,
-              84% 45%,
-              100% 46%,
-              100% 100%,
-              0% 100%
-          );
-    }
+  100%{
+    transform: rotate(180deg);
+
   }
+}
+
+.contant{
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  display: block;
+  --width-of-switch: 3.5em;
+  --height-of-switch: 2em;
+  /* size of sliding icon -- sun and moon */
+  --size-of-icon: 1.4em;
+  /* it is like a inline-padding of switch */
+  --slider-offset: 0.3em;
+  position: relative;
+  width: var(--width-of-switch);
+  height: var(--height-of-switch);
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f4f4f5;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: var(--size-of-icon,1.4em);
+  width: var(--size-of-icon,1.4em);
+  border-radius: 20px;
+  left: var(--slider-offset,0.3em);
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(40deg,#ff0080,#ff8c00 70%);
+  ;
+ transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #303136;
+}
+
+input:checked + .slider:before {
+  left: calc(100% - (var(--size-of-icon,1.4em) + var(--slider-offset,0.3em)));
+  background: #303136;
+  /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
+  box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+}
+@media only screen and (max-width: 440px) {
+  .seu-elemento {
+      width: 100%;
+  }
+}
