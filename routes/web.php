@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\home;
+use App\Http\Controllers\about;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
-});
-Route::fallback(function () {
-    return view('erros/erro');
-});
+})->name('welcome');
+
+Route::get('home', [home::class, 'index'])->name('home');
+Route::get('about', [about::class, 'index'])->name('about');
+
+
+
