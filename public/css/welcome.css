@@ -5,13 +5,14 @@
     font-family: 'Merriweather', serif;
 }
 
-  body {
+.body-top{
     background: radial-gradient(ellipse at left, #8452b0, #5585bc);
-
     /* background: radial-gradient(ellipse at left, #5b1e8f, #1f4672); */
-
     height: 100vh;
     margin: 0;
+    position: relative;
+    z-index: 10;
+
   }
   .frame1{
     top: 0;
@@ -45,4 +46,18 @@
     transform: rotate(0deg);
 }
   
-
+.bar-info{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #360e81;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.bar-info p{
+  padding: 15px;
+  margin: 0;
+}
+.bar-info p i{
+  margin: 0 5px 0 0;
+}

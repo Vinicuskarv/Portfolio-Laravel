@@ -15,24 +15,36 @@
     
 </head>
 <body>
+    <div class="body-top">
+        <div>
+            <div class="frame1">
+                <img src="{{ asset('img/circle-design1.png') }}" alt="circle-design"> 
+            </div>
+            <div class="frame2">
+                <img src="{{ asset('img/circle-design2.png') }}" alt="circle-design"> 
+            </div>
+            <div class="frame3">
+                <img src="{{ asset('img/circle-design3.png') }}" alt="circle-design"> 
+            </div> 
+        </div>
+        <div>
+            @include('./components/navbar')
+            <div class="container dashbord">
+                @include('./home/home')
+            </div>
+        </div>
+    </div>
+    <div class="bar-info">
+        <p><i class="fa-solid fa-gear"></i>+10 TECNOLOGIAS</p>
+        <p><i class="fa-solid fa-book"></i>CURSO CONCLUÍDO</p>
+        <p><i class="fa-solid fa-truck-fast"></i>+40 PROJETOS RALIZADOS</p>
+        <p><i class="fa-solid fa-shield-halved"></i>EXPERIÊNCIA</p>
+
+    </div>
+    <div>
+       @include('./about/about') 
+    </div>
     
-    <div>
-        <div class="frame1">
-            <img src="{{ asset('img/circle-design1.png') }}" alt="circle-design"> 
-        </div>
-        <div class="frame2">
-            <img src="{{ asset('img/circle-design2.png') }}" alt="circle-design"> 
-        </div>
-        <div class="frame3">
-            <img src="{{ asset('img/circle-design3.png') }}" alt="circle-design"> 
-        </div> 
-    </div>
-    <div>
-        @include('./components/navbar')
-        <div class="container dashbord">
-            @yield('content')
-        </div>
-    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>

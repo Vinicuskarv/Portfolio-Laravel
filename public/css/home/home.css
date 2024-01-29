@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
 .container-home{
-    background-color: rgba(255, 255, 255, 0.078);
-    backdrop-filter: blur(10px);
-    padding: 40px;
-    border-radius: 10px;
-    border: solid 1px rgba(255, 255, 255, 0.361);
-    margin-top: 50px;
+    text-align: center;
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .container-home label{
     color: #f4f4f4ee;
 }
 .texth1{
     font-family: 'Rubik Glitch Pop', system-ui;
-    font-size: 40px;
+    font-size: 100px;
     color: #f4f4f4ee;
     /* color: rgb(62, 62, 62); */
 }

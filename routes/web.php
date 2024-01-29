@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\home;
-use App\Http\Controllers\about;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,14 +12,13 @@ use App\Http\Controllers\about;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-
 Route::get('/', function () {
     return view('welcome');
-})->name('welcome');
+});
+Route::fallback(function () {
+    return view('erros/erro');
+});
 
-Route::get('home', [home::class, 'index'])->name('home');
-Route::get('about', [about::class, 'index'])->name('about');
 
 
 
