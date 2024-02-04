@@ -1,0 +1,9 @@
+.footer-container{
+    background-image: url("../../img/footer-design.png");
+    background-color: #cbd6e6;
+    width: 100%;
+    color: rgb(247, 237, 223);
+    height: 400px;
+    text-align: center;
+    padding: 150px 0 0 0;
+}

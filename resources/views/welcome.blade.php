@@ -37,15 +37,17 @@
     <div class="body-middle">
         <div class="bar-info">
             <p><i class="fa-solid fa-gear"></i>+10 TECNOLOGIAS</p>
-            <p><i class="fa-solid fa-book"></i>CURSO CONCLUÍDO</p>
-            <p><i class="fa-solid fa-truck-fast"></i>+40 PROJETOS RALIZADOS</p>
+            <p><i class="fa-solid fa-book"></i>CURSOS</p>
+            <p><i class="fa-solid fa-truck-fast"></i>+40 PROJETOS</p>
             <p><i class="fa-solid fa-shield-halved"></i>EXPERIÊNCIA</p>
         </div>
-        <div>
-        @include('./about/about') 
-        </div>        
+        <div class="container-about-master">
+            @include('./about/about')
+        </div>
     </div>
-
+    <div class="body-botton">
+        @include('./components/footer')
+    </div>
     
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>

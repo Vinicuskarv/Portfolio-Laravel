@@ -15,7 +15,8 @@
 
   }
 .body-middle{
-  background-color: rgb(223, 227, 232);
+  background-color: #cbd6e6;
+  height: 100vh;
   margin: 0;
 }
 .frame1{
@@ -64,4 +65,28 @@
 }
 .bar-info p i{
   margin: 0 5px 0 0;
+}
+@media screen and (max-width: 768px) {
+  .body-middle{
+    background-color: rgb(204, 217, 234);
+    height: 165vh;
+    margin: 0;
+  }
+  .frame2{
+    bottom: 50px;
+    left: 50px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+  .bar-info p{
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bar-info{
+    font-size: 10px;
+  }
 }
