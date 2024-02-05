@@ -16,8 +16,9 @@
   }
 .body-middle{
   background-color: #cbd6e6;
-  height: 100vh;
+  height: auto;
   margin: 0;
+  padding-bottom: 70px;
 }
 .frame1{
   top: 0;
@@ -68,9 +69,7 @@
 }
 @media screen and (max-width: 768px) {
   .body-middle{
-    background-color: rgb(204, 217, 234);
-    height: 165vh;
-    margin: 0;
+    height: auto;
   }
   .frame2{
     bottom: 50px;

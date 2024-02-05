@@ -11,7 +11,7 @@
         <i class="fa-brands fa-github"></i>
         <i class="fa-brands fa-linkedin"></i>
         <i class="fa-brands fa-whatsapp"></i>
-        <i class="fa-regular fa-envelope"></i>        
+        <i class="fa-regular fa-envelope"></i>
     </div>
 </div>
 

@@ -1,9 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
 .footer-container{
-    background-image: url("../../img/footer-design.png");
-    background-color: #cbd6e6;
+    background: radial-gradient(circle at center, #151636, #1b0e28, #151636);
     width: 100%;
     color: rgb(247, 237, 223);
-    height: 400px;
+    height: auto;
     text-align: center;
-    padding: 150px 0 0 0;
+    margin: 0;
+    padding: 50px;
 }
+.footer-container h3{
+    font-size: 50px;
+    font-family: 'Protest Riot', sans-serif;
+    margin: 20px 0;
+}
+.container-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-icons i{
+    font-size: 35px;
+    margin: 5px;
+    transition: transform 0.4s;
+}
+.container-icons i:hover{
+    filter: brightness(110%);
+    transform: scale(1.1);
+}
+.container-icons i:active{
+    transform: scale(0.95);
+    transform: scale(0.9);
+}
+.container-copyright{
+    margin-top: 30px;
+    text-decoration: none;
+}
+.container-copyright a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.container-copyright a:hover{
+    color: rgb(255, 249, 170);
+}
+.c-button{
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0.5em 1.6em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+  
+  .c-button--gooey {
+    color: rgb(247, 237, 223);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 4px solid rgb(247, 237, 223);
+    border-radius: 10px;
+    position: relative;
+    transition: all 700ms ease;
+    background-color: transparent;
+  }
+  
+  .c-button--gooey .c-button__blobs {
+    height: 100%;
+    filter: url(#goo);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -3px;
+    right: -1px;
+    z-index: -1;
+  }
+  
+  .c-button--gooey .c-button__blobs div {
+    background-color: rgb(247, 237, 223);
+    width: 34%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    transform: scale(1.4) translateY(125%) translateZ(0);
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(1) {
+    left: -5%;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(2) {
+    left: 30%;
+    transition-delay: 60ms;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(3) {
+    left: 66%;
+    transition-delay: 25ms;
+  }
+
+  .c-button--gooey:hover {
+    color: #1d1e29;
+    transform: scale(1.05);
+  }
+  .c-button--gooey:active {
+    color: #1d1e29;
+    transform: scale(1);
+  }
+  
+  .c-button--gooey:hover .c-button__blobs div {
+    transform: scale(1.4) translateY(0) translateZ(0);
+  }
