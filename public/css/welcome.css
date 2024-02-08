@@ -6,7 +6,7 @@
 }
 
 .body-top{
-    background: radial-gradient(ellipse at left, #161643, #266dbf);
+    background: radial-gradient(ellipse at left, #272074, #165bb6);
     /* background: radial-gradient(ellipse at left, #5b1e8f, #1f4672); */
     height: 100vh;
     margin: 0;
@@ -51,7 +51,7 @@
 .frame3 img{
     transform: rotate(0deg);
 }
-  
+
 .bar-info{
   display: flex;
   justify-content: space-evenly;

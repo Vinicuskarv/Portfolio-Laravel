@@ -13,12 +13,30 @@
 .texth1{
     font-family: 'Rubik Glitch Pop', system-ui;
     font-size: 100px;
-    color: #f4f4f4ee;
-    /* color: rgb(62, 62, 62); */
+    color: transparent;
+    display: inline-block;
+    background-image: linear-gradient(to right, #002fff, #d400ff);
+    -webkit-background-clip: text;
+    text-shadow: 0 5px rgba(255, 255, 255, 0.8);
+    animation: waveAnimation 5s ease infinite;
+}
+@keyframes waveAnimation {
+    0% {
+        text-shadow: 0 5px rgba(255, 255, 255, 0.8);
+    }
+    50% {
+        text-shadow: 0 3px rgba(255, 255, 255, 0.847);
+    }
+    100% {
+        text-shadow: 0 5px rgba(255, 255, 255, 0.8);
+    }
+  }
+.container-home .btn-master a{
+    text-decoration: none;
 }
 .btn-master{
     background-color: rgba(255, 255, 255, 0.148);
-
+    text-decoration: none;
     color: #f4f4f4ee;
     padding: 10px;
     border-radius: 7px;
@@ -30,13 +48,17 @@
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.61);
     color: #282828ee;
-
+}
+.btn-master:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 .icons i{
     color: #f4f4f4ee;
     font-size: 30px;
     margin: 5px;
     transition: transform 0.4s;
+    cursor: pointer;
 }
 .icons i:hover{
     filter: brightness(110%);
@@ -44,7 +66,7 @@
 }
 .icons i:active{
     transform: scale(0.95);
-    transform: scale(0.9);
+
 }
 @media screen and (max-width: 700px) {
     .texth1{
