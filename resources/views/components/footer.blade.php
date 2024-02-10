@@ -9,11 +9,11 @@
         <i class="fa-brands fa-square-github"></i>
         <i class="fa-brands fa-square-whatsapp"></i>
         <button class="c-button c-button--gooey">Contacto
-        <div class="c-button__blobs">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+            <div class="c-button__blobs">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </button>
         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
             <defs>

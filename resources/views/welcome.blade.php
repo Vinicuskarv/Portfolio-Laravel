@@ -12,20 +12,20 @@
     <script src="https://kit.fontawesome.com/db74d9e1d4.js" crossorigin="anonymous"></script>
 
     <title>Document</title>
-    
+
 </head>
 <body>
     <div class="body-top">
         <div>
             <div class="frame1">
-                <img src="{{ asset('img/circle-design1.png') }}" alt="circle-design"> 
+                <img src="{{ asset('img/circle-design1.png') }}" alt="circle-design">
             </div>
             <div class="frame2">
-                <img src="{{ asset('img/circle-design2.png') }}" alt="circle-design"> 
+                <img src="{{ asset('img/circle-design2.png') }}" alt="circle-design">
             </div>
             <div class="frame3">
-                <img src="{{ asset('img/circle-design3.png') }}" alt="circle-design"> 
-            </div> 
+                <img src="{{ asset('img/circle-design3.png') }}" alt="circle-design">
+            </div>
         </div>
         <div>
             @include('./components/navbar')
@@ -48,8 +48,6 @@
     <div class="body-botton">
         @include('./components/footer')
     </div>
-    
-    
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
 </body>

@@ -17,18 +17,18 @@
     display: inline-block;
     background-image: linear-gradient(to right, #002fff, #d400ff);
     -webkit-background-clip: text;
-    text-shadow: 0 5px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 7px rgba(255, 255, 255, 1);
     animation: waveAnimation 5s ease infinite;
 }
 @keyframes waveAnimation {
     0% {
-        text-shadow: 0 5px rgba(255, 255, 255, 0.8);
+        text-shadow: 0 7px rgba(255, 255, 255, 0.881);
     }
     50% {
-        text-shadow: 0 3px rgba(255, 255, 255, 0.847);
+        text-shadow: 0 3px rgba(255, 255, 255, 0.734);
     }
     100% {
-        text-shadow: 0 5px rgba(255, 255, 255, 0.8);
+        text-shadow: 0 7px rgba(255, 255, 255, 0.936);
     }
   }
 .container-home .btn-master a{
