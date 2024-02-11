@@ -12,12 +12,29 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 */
 Route::get('/', function () {
-    return view('welcome');
-});
-Route::fallback(function () {
-    return view('erros/erro');
-});
+    return view('layout/PageHome');
+})->name('home');
 
+Route::get('/about', function () {
+    return view('layout/PageAbout');
+})->name('about');
+
+Route::get('/contacto', function () {
+    return view('layout/PageContacto');
+})->name('contacto');
+
+Route::get('/tools', function () {
+    return view('layout/PageTools');
+})->name('tools');
+
+Route::get('/projects', function () {
+    return view('layout/PageProjects');
+})->name('projects');
+
+
+Route::fallback(function () {
+    return view('errors.error');
+});
 
 
 

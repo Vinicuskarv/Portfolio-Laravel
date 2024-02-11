@@ -5,11 +5,11 @@
 
   <div class="contant">
     <div class="contant-buttons">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-      <a href="#">Tools</a>
-      <a href="#">Projects</a>
+      <a href="{{ route('home') }}">HOME</a>
+      <a href="{{ route('about') }}">ABOUT</a>
+      <a href="{{ route('contacto') }}">CONTACTO</a>
+      <a href="{{ route('tools') }}">TOOLS</a>
+      <a href="{{ route('projects') }}">PROJECTS</a>
     </div>
     <div>
       <i class="icon fa-solid fa-earth-americas"></i>
