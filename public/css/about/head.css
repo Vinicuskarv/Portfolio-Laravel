@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
 .container-home{
-    text-align: center;
+    top: 130px;
     z-index: 5;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    position: relative;
 }
 .container-home label{
     color: #f4f4f4ee;
 }
 .texth1{
     font-family: 'Rubik Glitch Pop', system-ui;
-    font-size: 100px;
+    font-size: 80px;
     color: transparent;
     display: inline-block;
     background-image: linear-gradient(to right, #002fff, #d400ff);
@@ -22,13 +19,13 @@
 }
 @keyframes waveAnimation {
     0% {
-        text-shadow: 0 7px rgba(255, 255, 255, 0.881);
+        text-shadow: 0 7px rgb(255, 255, 255);
     }
     50% {
         text-shadow: 0 3px rgba(255, 255, 255, 0.734);
     }
     100% {
-        text-shadow: 0 7px rgba(255, 255, 255, 0.936);
+        text-shadow: 0 7px rgb(255, 255, 255);
     }
   }
 .container-home .btn-master a{

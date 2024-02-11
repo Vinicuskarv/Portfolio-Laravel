@@ -1,10 +1,8 @@
-<link href="{{ asset('css/home/home.css') }}" rel="stylesheet">
+<link href="{{ asset('css/about/head.css') }}" rel="stylesheet">
 <div class="container-home">
-    <label>Olá pessoas,</label>
-    <h1 class="texth1">I'M VINICIUS CARVALHO</h1>
+    <h1 class="texth1">Um pouco sobre mim</h1>
     <br><br>
-    <label>Bem-vindo ao meu portfólio</label><br><br>
-    <a href="#" class="btn-master">Me conheça um pouco mais</a>
+    <a href="#" class="btn-master">Conheça as ferramentas que já usei</a>
     <a href="#" class="btn-master"><i class="fa-regular fa-file-pdf"></i></a>
     <br><br>
     <div class="icons">

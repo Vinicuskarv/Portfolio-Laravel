@@ -16,7 +16,9 @@
     </div>
     <div>
         @include('../../components/navbar')
-        <h1>About</h1>
+        <div class="container dashbord">
+            @include('../../about/head')
+        </div>
 
     </div>
 </div>

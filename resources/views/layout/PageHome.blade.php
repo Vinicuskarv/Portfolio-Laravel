@@ -17,7 +17,7 @@
     <div>
         @include('../../components/navbar')
         <div class="container dashbord">
-            @include('../../home/home')
+            @include('../../home/head')
         </div>
     </div>
 </div>
@@ -29,7 +29,7 @@
         <p><i class="fa-solid fa-shield-halved"></i>EXPERIÊNCIA</p>
     </div>
     <div class="container-about-master">
-        @include('../../about/about')
+        @include('../../home/body')
     </div>
 </div>
 @endsection

@@ -11,8 +11,6 @@
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.073);
   }
 .text{
-  display: flex;
-  align-items: flex-start;
   cursor: pointer;
   margin-bottom: 5px;
 }
@@ -51,12 +49,9 @@
 .contant{
   display: flex;
   align-items: center;
-  width: 100px;
+  width: auto;
   justify-content: space-around;
   margin-top: 10px;
-}
-.contant-buttons{
-    display: flex;
 }
 .contant-buttons a{
     color:rgb(217, 217, 217) !important;
