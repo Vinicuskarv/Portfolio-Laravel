@@ -2,6 +2,7 @@
 
 @section('title', 'Contacto')
 @section('content')
+<link href="{{ asset('css/layout/PageContacto.css') }}" rel="stylesheet">
 <div class="body-top">
     <div>
         <div class="frame1">

@@ -2,6 +2,7 @@
 
 @section('title', 'Tools')
 @section('content')
+<link href="{{ asset('css/layout/PageProjects.css') }}" rel="stylesheet">
 <div class="body-top">
     <div>
         <div class="frame1">

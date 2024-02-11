@@ -2,6 +2,7 @@
 
 @section('title', 'Home')
 @section('content')
+<link href="{{ asset('css/layout/PageHome.css') }}" rel="stylesheet">
 <div class="body-top">
     <div>
         <div class="frame1">
