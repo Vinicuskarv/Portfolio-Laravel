@@ -131,48 +131,20 @@
     <h3>Tools</h3>
     <div class='containerToolInfo'>
         <div class='cardIcon'>
-        <i class="devicon-html5-plain"></i>
-        <div class='circle-percentage style-html'>
-            <p>98%</p>
-        </div>
-        <h5>HTML</h5>
-        </div>
-        <div class='cardIcon'>
-        <i class="devicon-css3-plain"></i>
-        <div class='circle-percentage style-css'>
-            <p>98%</p>
-        </div>
-        <h5>CSS</h5>
-        </div>
-        <div class='cardIcon'>
-        <i class="devicon-javascript-plain"></i>
-        <div class='circle-percentage style-javascript'>
-            <p>98%</p>
-        </div>
-        <h5>JavaScript</h5>
+            <i class="devicon-javascript-plain"></i>
+            <div class='circle-percentage style-javascript'>
+                <p>98%</p>
+            </div>
+            <h5>JavaScript</h5>
         </div>
     </div>
     <div class='containerToolInfo'>
         <div class='cardIcon'>
-        <i class="devicon-react-original"></i>
-        <div class='circle-percentage style-react'>
-            <p>98%</p>
-        </div>
-        <h5>REACT</h5>
-        </div>
-        <div class='cardIcon'>
-        <i class="devicon-java-plain"></i>
-        <div class='circle-percentage style-java'>
-            <p>98%</p>
-        </div>
-        <h5>JAVA</h5>
-        </div>
-        <div class='cardIcon'>
-        <i class="devicon-azuresqldatabase-plain"></i>
-        <div class='circle-percentage style-sql'>
-            <p>98%</p>
-        </div>
-        <h5>SQL</h5>
+            <i class="devicon-react-original"></i>
+            <div class='circle-percentage style-react'>
+                <p>98%</p>
+            </div>
+            <h5>REACT</h5>
         </div>
     </div>
 </div>
