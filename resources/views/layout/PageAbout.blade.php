@@ -21,7 +21,17 @@
         <div class="container dashbord">
             @include('../../about/head')
         </div>
-
+    </div>
+</div>
+<div class="body-middle">
+    <div class="bar-info">
+        <p><i class="fa-solid fa-gear"></i>+10 TECNOLOGIAS</p>
+        <p><i class="fa-solid fa-book"></i>CURSOS</p>
+        <p><i class="fa-solid fa-truck-fast"></i>+40 PROJETOS</p>
+        <p><i class="fa-solid fa-shield-halved"></i>EXPERIÊNCIA</p>
+    </div>
+    <div class="container-about-master">
+        @include('../../about/body')
     </div>
 </div>
 @endsection
