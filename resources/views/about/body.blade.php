@@ -118,12 +118,12 @@
         </div>
     </div>
 </div>
-<div class="containeAnalizer">
+<div class="containeAnalyzer">
     <div class="frem1"></div>
     <div class="frem2">
-        <img height="200" src="https://github-readme-stats.vercel.app/api?username=ViniciusKarv&theme=react&show_icons=true&hide_border=true&count_private=true" alt="">
-        <img class="heamdStats" height="250" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ViniciusKarv&theme=react&show_icons=true&hide_border=true" alt="">
-        <img height="200" src="https://github-readme-streak-stats.herokuapp.com/?user=ViniciusKarv&theme=react&hide_border=true" alt="">
+        <img class="heamdStats1" height="200" src="https://github-readme-stats.vercel.app/api?username=ViniciusKarv&theme=react&show_icons=true&hide_border=true&count_private=true" alt="">
+        <img class="heamdStats2" height="250" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ViniciusKarv&theme=react&show_icons=true&hide_border=true" alt="">
+        <img class="heamdStats3" height="200" src="https://github-readme-streak-stats.herokuapp.com/?user=ViniciusKarv&theme=react&hide_border=true" alt="">
     </div>
     <div class="frem3"></div>
 </div>
