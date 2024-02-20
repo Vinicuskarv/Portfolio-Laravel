@@ -1,6 +1,6 @@
 <link href="{{ asset('css/about/body.css') }}" rel="stylesheet">
 <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-
+<link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
 <div class="bodyAboute">
     <div class="infoAbout">
         <h3>Resumo</h3>
@@ -127,24 +127,169 @@
     </div>
     <div class="frem3"></div>
 </div>
-<div class='Tools'>
-    <h3>Tools</h3>
-    <div class='containerToolInfo'>
-        <div class='cardIcon'>
-            <i class="devicon-javascript-plain"></i>
-            <div class='circle-percentage style-javascript'>
-                <p>98%</p>
+<div class='Tools row'>
+    <h3>Tools</h3><br><br>
+    <div class="col-12 col-md-8 text-center">
+        <div class='row align-items-center'>
+            <div class="col-4 col-lg-2 col-md-4">
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <i class="devicon-react-original"></i>
+                        </div>
+                        <div class="backSide">
+                            <p>98%</p>
+                            <label>React.js</label>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <h5>JavaScript</h5>
+            <div class="col-4 col-lg-2 col-md-4">
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <i class="devicon-php-plain"></i>
+                        </div>
+                        <div class="backSide">
+                            <p>98%</p>
+                            <label>PHP</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2 col-md-4">
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <i class="devicon-laravel-original"></i>
+                        </div>
+                        <div class="backSide">
+                            <p>98%</p>
+                            <label>Laravel</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2 col-md-4">
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <i class="devicon-csharp-line"></i>
+                        </div>
+                        <div class="backSide">
+                            <p>98%</p>
+                            <label>C#</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2 col-md-4">
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <i class="devicon-javascript-plain"></i>
+                        </div>
+                        <div class="backSide">
+                            <p>98%</p>
+                            <label>JavasCript</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2 col-md-4">
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <i class="devicon-azuresqldatabase-plain"></i>
+                        </div>
+                        <div class="backSide">
+                            <p>98%</p>
+                            <label>SQL</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2 col-md-4">
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <i class="devicon-css3-plain"></i>
+                        </div>
+                        <div class="backSide">
+                            <p>98%</p>
+                            <label>CSS</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2 col-md-4">
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <i class="devicon-html5-plain"></i>
+                        </div>
+                        <div class="backSide">
+                            <p>98%</p>
+                            <label>HTML</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2 col-md-4">
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <i class="devicon-mysql-original"></i>
+                        </div>
+                        <div class="backSide">
+                            <p>98%</p>
+                            <label>MySQL</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2 col-md-4">
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <i class="devicon-json-plain"></i>
+                        </div>
+                        <div class="backSide">
+                            <p>98%</p>
+                            <label>Json</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2 col-md-4">
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <i class="devicon-xml-plain"></i>
+                        </div>
+                        <div class="backSide">
+                            <p>98%</p>
+                            <label>XML</label>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2 col-md-4">
+                <div class="myCard">
+                    <div class="innerCard">
+                        <div class="frontSide">
+                            <i class="devicon-nodejs-plain-wordmark"></i>
+                        </div>
+                        <div class="backSide">
+                            <p>98%</p>
+                            <label>Node.js</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class='containerToolInfo'>
-        <div class='cardIcon'>
-            <i class="devicon-react-original"></i>
-            <div class='circle-percentage style-react'>
-                <p>98%</p>
-            </div>
-            <h5>REACT</h5>
-        </div>
-    </div>
+    <br><br>
+    <h5>A meta é ser melhor que ontem, não melhor que ninguém!</h5>
 </div>

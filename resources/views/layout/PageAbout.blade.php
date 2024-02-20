@@ -34,4 +34,5 @@
         @include('../../about/body')
     </div>
 </div>
+
 @endsection
