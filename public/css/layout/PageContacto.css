@@ -8,11 +8,10 @@
 .body-top{
     background: radial-gradient(ellipse at left, #272074, #165bb6);
     /* background: radial-gradient(ellipse at left, #5b1e8f, #1f4672); */
-    height: 100vh;
+    height: 60vh;
     margin: 0;
     position: relative;
     z-index: 10;
-
   }
 .body-middle{
   background-color: #cbd6e6;
