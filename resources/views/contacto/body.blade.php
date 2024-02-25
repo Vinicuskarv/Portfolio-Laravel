@@ -64,6 +64,7 @@
                 </div>
                 <div class="col-10 text-start">
                     <br>
+                    <br>
                     <p>Se preferir, entre em contato:</p>
                 </div>
                 <br>
@@ -77,10 +78,6 @@
                         <div>
                             <i class="fa-regular fa-envelope"></i>
                             <h2>kavviniciu@gmail.com</h2>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-location-dot"></i>
-                            <h2>Porto, Póvoa de Varzim</h2>
                         </div>
                     </div>
                 </div>
