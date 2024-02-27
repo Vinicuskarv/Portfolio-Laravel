@@ -1,11 +1,15 @@
+.container-cards{
+    margin-top: 40px;
+}
 .card-project {
     position: relative;
     width: 190px;
     height: 254px;
-    background: #f00;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    margin-top: 10px;
   }
 
   .card-project::before {
@@ -40,14 +44,13 @@
     position: absolute;
     z-index: 3;
     scale: 0.8;
-    opacity: 0.25;
+    opacity: 0.50;
     transition: 0.5s;
+    border-radius: 100%;
   }
 
   .card-project:hover img {
     scale: 0.5;
-    opacity: 0.9;
-    transform: translateY(-70px);
   }
 
   .card-project .content {
@@ -76,8 +79,49 @@
     text-transform: uppercase;
     text-align: center;
   }
-
-  .content .title span {
-    font-weight: 300;
-    font-size: 0.70em;
+  .card-project .icons-directions{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 10px;
+    transform: scale(0);
+    transition: 0.5s;
   }
+  .card-project:hover .icons-directions {
+    transform: scale(1);
+    top: 10px;
+  }
+  .icons-directions .sci {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+  }
+
+  .sci li {
+    list-style: none;
+  }
+
+  .sci li a {
+    position: relative;
+    text-decoration: none;
+    fill: currentColor;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: 0.5s;
+  }
+
+  .sci li a:hover {
+    fill: currentColor;
+    transform: scale(1.1);
+  }
+  .sci li a:hover img{
+    opacity: 1;
+  }
+
