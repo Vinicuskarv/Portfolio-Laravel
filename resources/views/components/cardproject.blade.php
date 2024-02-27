@@ -7,6 +7,6 @@
         </ul>
     </div>
     <div class="content">
-      <p class="title">{{$title}}</p>
+        <p class="title">{{$title}}</p>
     </div>
-  </div>
+</div>
